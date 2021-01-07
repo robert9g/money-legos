@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.6.1;
+pragma solidity ^0.5.1;
 pragma experimental ABIEncoderV2;
 
 import { Account } from "./ISoloMargin.sol";

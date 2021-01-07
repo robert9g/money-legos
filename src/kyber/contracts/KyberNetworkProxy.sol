@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 // Note: Kyber uses it owns ERC20 interface
 // See: https://github.com/KyberNetwork/smart-contracts/blob/master/contracts/ERC20Interface.sol
-import { IERC20 as ERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import { IERC20 as ERC20 } from "https://github.com/robert9g/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
 
 interface KyberNetworkProxyInterface {
     function maxGasPrice() external view returns(uint);

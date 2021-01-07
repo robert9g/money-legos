@@ -1,8 +1,8 @@
 pragma solidity ^0.6.1;
 pragma experimental ABIEncoderV2;
 
-import "@openzeppelin/contracts/math/SafeMath.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@OpenZeppelin/openzeppelin-contracts/contracts/math/SafeMath.sol";
+import "@OpenZeppelin/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
 
 import "./ISoloMargin.sol";
 
